@@ -40,21 +40,21 @@
             <Label text="Department" GridPane.rowIndex="5" />
             <TextField fx:id="txtId" editable="false" GridPane.columnIndex="1" />
             <TextField fx:id="txtName" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <TextField fx:id="txtEmail" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="txtEmail" GridPane.columnIndex="1" GridPane.rowIndex="2" />
             <DatePicker fx:id="dpBirthDate" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-            <TextField fx:id="txtBaseSalary" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <TextField fx:id="txtBaseSalary" GridPane.columnIndex="1" GridPane.rowIndex="4" />
             <Label textFill="#ff0603" GridPane.columnIndex="2" />
             <Label fx:id="labelErrorName" textFill="#f70000" GridPane.columnIndex="2" GridPane.rowIndex="1" />
             <Label fx:id="labelErrorEmail" textFill="#ff0603" GridPane.columnIndex="2" GridPane.rowIndex="2" />
             <Label fx:id="labelErrorBirthDate" textFill="#ff0603" GridPane.columnIndex="2" GridPane.rowIndex="3" />
             <Label fx:id="labelErrorBaseSalary" textFill="#ff0603" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <ComboBox fx:id="comboBoxDepartment" prefHeight="26.0" prefWidth="192.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
             <Button fx:id="btCancel" contentDisplay="CENTER" lineSpacing="5.0" mnemonicParsing="false" onAction="#onBtCancelAction" text="Cancel" GridPane.columnIndex="1" GridPane.rowIndex="6">
                <GridPane.margin>
                   <Insets left="50.0" right="50.0" />
                </GridPane.margin>
             </Button>
             <Button fx:id="btSave" lineSpacing="5.0" mnemonicParsing="false" onAction="#onBtSaveAction" text="Save" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-            <ComboBox fx:id="comboBoxDepartment" prefHeight="26.0" prefWidth="192.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
          </children>
       </GridPane>
    </children>
